@@ -1,0 +1,10 @@
+爬虫项目步骤：
+1.创建scrapy项目
+>scrapy startproject 项目名
+2.生成爬虫文件
+>scrapy genspider douban_spider movie.douban.com
+3.编写items.py
+4.编写douban_spider.py
+5.scrapy crawl douban_spider
+6.导出成json文件
+>scrapy crawl douban_spider -o test.json
