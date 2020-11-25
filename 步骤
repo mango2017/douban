@@ -8,3 +8,8 @@
 5.scrapy crawl douban_spider
 6.导出成json文件
 >scrapy crawl douban_spider -o test.json
+7.xpath快捷键：ctrl+shift+x
+
+注意事项：
+中间件定义完要在settings文件内启用
+爬虫文件名和爬虫名称不能相同，spiders目录内不能存在相同爬虫名称的项目文件
