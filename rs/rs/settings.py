@@ -63,9 +63,9 @@ LOG_LEVEL = 'WARN'
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'rs.pipelines.RsPipeline': 300,
-#}
+ITEM_PIPELINES = {
+   'rs.pipelines.RsPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
@@ -87,3 +87,9 @@ LOG_LEVEL = 'WARN'
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+MYSQL_HOST = "127.0.0.1"
+MYSQL_DBNAME = 'douban'
+MYSQL_USER = 'root'
+MYSQL_PASSWD = 'qq123456'
+MYSQL_PORT = 3306

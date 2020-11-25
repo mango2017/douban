@@ -22,5 +22,5 @@ class RsSpiderSpider(scrapy.Spider):
 
             rs_item['rs_count'] = i_item.xpath('./td[2]/text()').extract_first()
             yield rs_item
-            print(rs_item)
+
 

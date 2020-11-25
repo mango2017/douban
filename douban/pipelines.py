@@ -41,8 +41,8 @@ class DoubanPipeline:
             item['describe'],
             item['image']
         )
-        print("hello")
-        print(values)
+
+
 
         sql = 'INSERT INTO books VALUES(NULL,%s,%s,%s,%s,%s,%s,%s)'
         self.db_cur.execute(sql, values)
