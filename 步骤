@@ -3,10 +3,12 @@
 >scrapy startproject 项目名
 2.生成爬虫文件
 >scrapy genspider douban_spider movie.douban.com
-3.编写items.py
-4.编写douban_spider.py
-5.scrapy crawl douban_spider
-6.导出成json文件
+3.编写items.py 定义要抓取的字段
+4.编写douban_spider.py 给要定义的字段赋值
+5.编写pipelines.py 连接数据库+CURD
+6.运行
+>scrapy crawl douban_spider  或者新增一个main.py写上这句话也行
+7.也可以导出成json文件
 >scrapy crawl douban_spider -o test.json
 7.xpath快捷键：ctrl+shift+x
 
