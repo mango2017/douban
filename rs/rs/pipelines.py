@@ -7,6 +7,8 @@
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter
 import pymysql
+import logging
+logger = logging.getLogger(__name__)
 
 class RsPipeline:
     #打开数据库
@@ -28,6 +30,7 @@ class RsPipeline:
     #对数据库进行处理
     def process_item(self, item, spider):
         self.insert_db(item)
+        logger.warning("-"*10)
         return item
 
     #插入数据

@@ -21,3 +21,41 @@ xpath语法其实只有3大类：
 1）层级： / 直接子级 // 跳级
 2）属性： @ 属性访问
 3）函数 contains text() 等
+
+
+创建一个scrapy项目
+>scrapy startproject mySpider
+生成一个爬虫
+>scrapy genspider itcast "itcast.cn"
+提取数据
+完善spider,使用xpath等方法
+保存数据
+pipeline中保存数据
+
+items.py 自己预计需要爬取的内容
+middlewares.py 自定义中间件的文件
+pipelines.py 管道，保存数据
+settings.py 设置文件，UA，启动管道
+spiders 自定义的spider的文件夹
+scrapy.cfg 项目的配置文件
+
+
+从pipeline的字典形式可以看出来，pipeline可以有多个，而且确实pipeline能够定义多个
+为什么需要多个pipeline:
+1.可能会有多个spider，不同的pipeline处理不同的item的内容
+2.一个spider的内容可能要做不同的操作，比如存入不同的数据库中
+注意：
+1.pipeline的权重越小优先级越高
+2.pipeline中process_item方法名不能修改为其他的名称
+
+
+logging 模块的使用
+scrapy:
+settings中设置LOG_LEVEL="WARNING"
+settings中设置LOG_FILE="./a.log" #设置日志保存的位置，设置后中断不会显示日志内容
+import logging实例化logger的方式在任何文件中使用logger输出内容
+普通项目中
+import loggings
+loggings.basicConfig(...) 设置日志输出的样式，格式
+实例化一个logger = logging.getLogger(__name__)
+在任何py文件中调用logger即可

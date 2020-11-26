@@ -1,5 +1,8 @@
 import scrapy
+import logging
 from rs.items import RsItem
+
+logger = logging.getLogger(__name__)
 
 class RsSpiderSpider(scrapy.Spider):
     name = 'rs_spider'  #爬虫名字 爬虫启动时候使用：scrapy crawl itcast
@@ -10,11 +13,11 @@ class RsSpiderSpider(scrapy.Spider):
 
 
     def parse(self, response):  #数据提取方法，接收下载中间件传过来的response
-        #处理start_url地址对应的响应
+        # 处理start_url地址对应的响应
         # print(response.xpath("//div[@class='opr-recommends-merge-content']//div[contains(@class,'opr-recommends-merge-item-new')]/div[@class='opr-recommends-merge-img-titleline-height']/a/text()").extract())
         # print(response.body)
         rs_list = response.xpath("//table[contains(@class,'opr-toplist1-table')]/tbody/tr")
-
+        logger.warning(rs_list)
         for i_item in rs_list:
             rs_item = RsItem()
             rs_item['rs_name'] = i_item.xpath("./td[1]/a/text()").extract()
