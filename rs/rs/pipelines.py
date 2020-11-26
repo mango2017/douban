@@ -40,3 +40,6 @@ class RsPipeline:
         sql = 'INSERT INTO rs VALUES(null,%s,%s,%s)'
 
         self.db_cur.execute(sql,values)
+
+
+# 完成pipelines代码后，需要在setting中设置开启

@@ -63,6 +63,7 @@ LOG_LEVEL = 'WARN'
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
+#冒号后面是权重，越小的余越先执行
 ITEM_PIPELINES = {
    'rs.pipelines.RsPipeline': 300,
 }
