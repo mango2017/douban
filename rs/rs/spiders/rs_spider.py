@@ -15,8 +15,9 @@ class RsSpiderSpider(scrapy.Spider):
     def parse(self, response):  #数据提取方法，接收下载中间件传过来的response
         # 处理start_url地址对应的响应
         # print(response.xpath("//div[@class='opr-recommends-merge-content']//div[contains(@class,'opr-recommends-merge-item-new')]/div[@class='opr-recommends-merge-img-titleline-height']/a/text()").extract())
-        # print(response.body)
+        print(response.body)
         rs_list = response.xpath("//table[contains(@class,'opr-toplist1-table')]/tbody/tr")
+        print(rs_list)
         logger.warning(rs_list)
         for i_item in rs_list:
             rs_item = RsItem()
