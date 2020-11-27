@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81ae1ee9-f9b8-4e58-a0e0-74b8d1192a52" name="Default Changelist" comment="1">
-      <change afterPath="$PROJECT_DIR$/maoyan_movie/maoyan_movie/main.py" afterDir="false" />
+    <list default="true" id="81ae1ee9-f9b8-4e58-a0e0-74b8d1192a52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maoyan_movie/maoyan_movie/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/maoyan_movie/maoyan_movie/items.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maoyan_movie/maoyan_movie/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/maoyan_movie/maoyan_movie/middlewares.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maoyan_movie/maoyan_movie/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/maoyan_movie/maoyan_movie/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maoyan_movie/maoyan_movie/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/maoyan_movie/maoyan_movie/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rs/rs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/rs/rs/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rs/rs/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/rs/rs/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rs/rs/spiders/rs_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/rs/rs/spiders/rs_spider.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,130 +17,76 @@
     <SUITE FILE_PATH="coverage/douban$douban_spider.coverage" NAME="douban_spider Coverage Results" MODIFIED="1606284429420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/douban/spiders" />
     <SUITE FILE_PATH="coverage/douban$main.coverage" NAME="main Coverage Results" MODIFIED="1606268449828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/douban" />
     <SUITE FILE_PATH="coverage/douban$log_rs.coverage" NAME="log_rs Coverage Results" MODIFIED="1606362035120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/douban$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1606382484735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/maoyan_movie/maoyan_movie" />
+    <SUITE FILE_PATH="coverage/douban$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1606444963537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/maoyan_movie/maoyan_movie" />
     <SUITE FILE_PATH="coverage/douban$rs_spider.coverage" NAME="rs_spider Coverage Results" MODIFIED="1606284413214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rs/rs/spiders" />
+    <SUITE FILE_PATH="coverage/douban$test.coverage" NAME="test Coverage Results" MODIFIED="1606444822826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.8529282">
-      <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.25413224">
-          <split-first>
-            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/maoyan_movie/maoyan_movie/spiders/maoyan_spider.py">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="250">
-                      <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-                      <folding>
-                        <element signature="e#0#13#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/maoyan_movie/maoyan_movie/pipelines.py">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="816">
-                      <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-                      <folding>
-                        <element signature="e#238#273#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/rs/rs/settings.py">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="450">
-                      <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/maoyan_movie/maoyan_movie/main.py">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="75">
-                      <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-first>
-          <split-second>
-            <leaf>
-              <file pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/maoyan_movie/maoyan_movie/settings.py">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="500">
-                      <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/douban/settings.py">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="395">
-                      <caret line="47" column="18" selection-start-line="47" selection-end-line="47" selection-end-column="18" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/douban/middlewares.py">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="467">
-                      <caret line="107" selection-start-line="107" selection-end-line="130" selection-end-column="45" />
-                      <folding>
-                        <element signature="e#145#158#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/maoyan_movie/maoyan_movie/middlewares.py">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="467">
-                      <caret line="104" column="14" selection-start-line="104" selection-start-column="6" selection-end-line="104" selection-end-column="14" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-second>
-        </splitter>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/rs/rs/spiders/rs_spider.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="356">
-                  <caret line="17" column="22" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="22" />
-                  <folding>
-                    <element signature="e#0#13#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/rs/rs/main.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="819">
-                  <caret line="36" column="134" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="36" selection-end-column="134" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/maoyan_movie/maoyan_movie/spiders/maoyan_spider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/maoyan_movie/maoyan_movie/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1000">
+              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+              <folding>
+                <element signature="e#238#273#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rs/rs/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/maoyan_movie/maoyan_movie/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="42" selection-start-column="42" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/maoyan_movie/maoyan_movie/middlewares.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2800">
+              <caret line="116" selection-start-line="116" selection-end-line="116" />
+              <folding>
+                <element signature="e#145#171#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -157,9 +97,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mysql</find>
-      <find>adbapi</find>
-      <find>pipeline</find>
       <find>insert into</find>
       <find>db_cur</find>
       <find>none</find>
@@ -187,6 +124,9 @@
       <find>ip</find>
       <find>middlew</find>
       <find>middle</find>
+      <find>SPIDER_MIDDLEWARES</find>
+      <find>process_responser</find>
+      <find>process_exception</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -212,21 +152,22 @@
         <option value="$PROJECT_DIR$/log_rs.py" />
         <option value="$PROJECT_DIR$/loggmsg.log" />
         <option value="$PROJECT_DIR$/步骤" />
-        <option value="$PROJECT_DIR$/maoyan_movie/maoyan_movie/main.py" />
         <option value="$PROJECT_DIR$/maoyan_movie/maoyan_movie/items.py" />
         <option value="$PROJECT_DIR$/maoyan_movie/maoyan_movie/pipelines.py" />
         <option value="$PROJECT_DIR$/rs/rs/spiders/rs_spider.py" />
         <option value="$PROJECT_DIR$/rs/rs/main.py" />
         <option value="$PROJECT_DIR$/douban/middlewares.py" />
+        <option value="$PROJECT_DIR$/maoyan_movie/maoyan_movie/settings.py" />
         <option value="$PROJECT_DIR$/maoyan_movie/maoyan_movie/middlewares.py" />
         <option value="$PROJECT_DIR$/maoyan_movie/maoyan_movie/spiders/maoyan_spider.py" />
-        <option value="$PROJECT_DIR$/maoyan_movie/maoyan_movie/settings.py" />
+        <option value="$PROJECT_DIR$/maoyan_movie/maoyan_movie/main.py" />
+        <option value="$PROJECT_DIR$/test.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="997" />
-    <option name="y" value="111" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="497" />
+    <option name="y" value="534" />
     <option name="width" value="1973" />
     <option name="height" value="1164" />
   </component>
@@ -242,47 +183,6 @@
             <path>
               <item name="douban" type="b2602c69:ProjectViewProjectNode" />
               <item name="douban" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="douban" type="b2602c69:ProjectViewProjectNode" />
-              <item name="douban" type="462c0819:PsiDirectoryNode" />
-              <item name="douban" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="douban" type="b2602c69:ProjectViewProjectNode" />
-              <item name="douban" type="462c0819:PsiDirectoryNode" />
-              <item name="maoyan_movie" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="douban" type="b2602c69:ProjectViewProjectNode" />
-              <item name="douban" type="462c0819:PsiDirectoryNode" />
-              <item name="maoyan_movie" type="462c0819:PsiDirectoryNode" />
-              <item name="maoyan_movie" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="douban" type="b2602c69:ProjectViewProjectNode" />
-              <item name="douban" type="462c0819:PsiDirectoryNode" />
-              <item name="maoyan_movie" type="462c0819:PsiDirectoryNode" />
-              <item name="maoyan_movie" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="douban" type="b2602c69:ProjectViewProjectNode" />
-              <item name="douban" type="462c0819:PsiDirectoryNode" />
-              <item name="rs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="douban" type="b2602c69:ProjectViewProjectNode" />
-              <item name="douban" type="462c0819:PsiDirectoryNode" />
-              <item name="rs" type="462c0819:PsiDirectoryNode" />
-              <item name="rs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="douban" type="b2602c69:ProjectViewProjectNode" />
-              <item name="douban" type="462c0819:PsiDirectoryNode" />
-              <item name="rs" type="462c0819:PsiDirectoryNode" />
-              <item name="rs" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -405,7 +305,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rs_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="douban" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -413,12 +313,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rs/rs/spiders" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rs/rs/spiders/rs_spider.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -429,18 +329,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.douban_spider" />
-      <item itemvalue="Python.rs_spider" />
       <item itemvalue="Python.main (1)" />
       <item itemvalue="Python.log_rs" />
       <item itemvalue="Python.main (2)" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.log_rs" />
         <item itemvalue="Python.douban_spider" />
-        <item itemvalue="Python.rs_spider" />
       </list>
     </recent_temporary>
   </component>
@@ -461,7 +361,9 @@
       <workItem from="1606266875340" duration="8254000" />
       <workItem from="1606286869787" duration="304000" />
       <workItem from="1606287177296" duration="26460000" />
-      <workItem from="1606381177545" duration="1263000" />
+      <workItem from="1606381177545" duration="4189000" />
+      <workItem from="1606441093661" duration="460000" />
+      <workItem from="1606442068011" duration="1582000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1606268697452</created>
@@ -512,11 +414,18 @@
       <option name="project" value="LOCAL" />
       <updated>1606373234294</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="爬虫猫眼电影">
+      <created>1606382577361</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606382577361</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50403000" />
+    <option name="totallyTimeSpent" value="55371000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -528,15 +437,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <frame x="790" y="362" width="1973" height="1164" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.097376786" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13016205" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19422777" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5388349" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -545,7 +454,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3299532" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.09906396" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3475728" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.29875195" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -560,7 +469,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="爬取百度热搜" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="爬虫猫眼电影" />
+    <option name="LAST_COMMIT_MESSAGE" value="爬虫猫眼电影" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../xuexipython/venv/Lib/site-packages/MySQLdb/__init__.py">
@@ -697,19 +607,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rs/rs/spiders/rs_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rs/rs/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
+        <state relative-caret-position="900">
           <caret line="36" column="134" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="36" selection-end-column="134" />
         </state>
       </provider>
@@ -724,13 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maoyan_movie/maoyan_movie/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="104" column="14" selection-start-line="104" selection-start-column="6" selection-end-line="104" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/douban/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
@@ -738,10 +631,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/maoyan_movie/maoyan_movie/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rs/rs/spiders/rs_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/maoyan_movie/maoyan_movie/spiders/maoyan_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="71">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -750,7 +660,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/maoyan_movie/maoyan_movie/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
+        <state relative-caret-position="1000">
           <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
           <folding>
             <element signature="e#238#273#0" expanded="true" />
@@ -760,22 +670,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rs/rs/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="525">
           <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maoyan_movie/maoyan_movie/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2800">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+          <folding>
+            <element signature="e#145#171#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/maoyan_movie/maoyan_movie/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state>
+          <caret selection-end-line="1" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maoyan_movie/maoyan_movie/settings.py">
+    <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state>
+          <caret column="42" selection-start-column="42" selection-end-column="42" />
         </state>
       </provider>
     </entry>

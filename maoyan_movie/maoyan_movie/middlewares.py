@@ -4,7 +4,8 @@
 # https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
-
+from scrapy.http import HtmlResponse
+import time
 # useful for handling different item types with a single interface
 from itemadapter import is_item, ItemAdapter
 
@@ -87,7 +88,22 @@ class MaoyanMovieDownloaderMiddleware:
         # - return a Response object
         # - return a Request object
         # - or raise IgnoreRequest
-        return response
+        # return response
+        if request.url in ["https://maoyan.com/?utm_source=meituanweb"]:
+            spider.browser.get(url=request.url)
+            # more_btn = spider.browser.find_element_by_class_name("post_addmore")     # 更多按钮
+            # print(more_btn)
+            js = "window.scrollTo(0,document.body.scrollHeight)"
+            spider.browser.execute_script(js)
+            # if more_btn and request.url == "http://news.163.com/domestic/":
+            #     more_btn.click()
+            time.sleep(1)  # 等待加载,  可以用显示等待来优化.
+            row_response = spider.browser.page_source
+            return HtmlResponse(url=spider.browser.current_url, body=row_response, encoding="utf8",
+                                request=request)  # 参数url指当前浏览器访问的url(通过current_url方法获取), 在这里参数url也可以用request.url
+            # 参数body指要封装成符合HTTP协议的源数据, 后两个参数可有可无
+        else:
+            return response  # 是原来的主页的响应对象
 
     def process_exception(self, request, exception, spider):
         # Called when a download handler or a process_request()
@@ -98,6 +114,7 @@ class MaoyanMovieDownloaderMiddleware:
         # - return a Response object: stops process_exception() chain
         # - return a Request object: stops process_exception() chain
         pass
+
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
