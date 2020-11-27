@@ -7,3 +7,5 @@ browser = webdriver.Chrome()
 browser.get(url)
 browser.implicitly_wait(10)
 
+movie_list = browser.find_elements_by_xpath("//div[@class='movie-grid']/div[1]//dl[@class='movie-list']/dd")
+print(len(movie_list))
