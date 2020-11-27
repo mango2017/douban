@@ -20,15 +20,20 @@ for key,m_item in enumerate(movie_list):
     maoyan_movie_detail_page = browser.get(movie_item['movie_href'])   #进入电影详情页面
     movie_detail = browser.find_elements_by_xpath("//div[@class='mod-content']/span")
     movie_item['movie_detail'] = movie_detail[0].text
-    print(movie_item)
+    movie_score = browser.find_elements_by_xpath("//span[@class='index-left info-num ']//span[@class='stonefont']")
+    movie_item['movie_score'] = movie_score[key].text
+    print(movie_score[key].text)
     browser.back()
+
 
     # movie_item['movie_name'] = movie_name.text
     #
     # try:
     #
-    #     score_1 = m_item.find_elements_by_xpath("//div[@class='movie-grid']/div[1]//dl[@class='movie-list']/dd//div[@class='movie-score']/i[1]")
-    #     score_2 = m_item.find_elements_by_xpath("//div[@class='movie-grid']/div[1]//dl[@class='movie-list']/dd//div[@class='movie-score']/i[2]")
+
+
+
+        # score_2 = m_item.find_elements_by_xpath("//div[@class='movie-grid']/div[1]//dl[@class='movie-list']/dd//div[@class='movie-score']/i[2]")
     # except Exception as error:
     #     print("none")
     # if score_1 and score_2:
