@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81ae1ee9-f9b8-4e58-a0e0-74b8d1192a52" name="Default Changelist" comment="">
+    <list default="true" id="81ae1ee9-f9b8-4e58-a0e0-74b8d1192a52" name="Default Changelist" comment="1">
+      <change afterPath="$PROJECT_DIR$/bang_dangdang_com/bang_dangdang_com/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bang_dangdang_com/bang_dangdang_com/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bang_dangdang_com/bang_dangdang_com/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bang_dangdang_com/bang_dangdang_com/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bang_dangdang_com/bang_dangdang_com/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bang_dangdang_com/bang_dangdang_com/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bang_dangdang_com/bang_dangdang_com/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bang_dangdang_com/scrapy.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maoyan.py" beforeDir="false" afterPath="$PROJECT_DIR$/maoyan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,28 +20,60 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/douban$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1606381700832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rs/rs" />
-    <SUITE FILE_PATH="coverage/douban$maoyan.coverage" NAME="maoyan Coverage Results" MODIFIED="1606464939978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/douban$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1606729341522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bang_dangdang_com/bang_dangdang_com" />
+    <SUITE FILE_PATH="coverage/douban$maoyan.coverage" NAME="maoyan Coverage Results" MODIFIED="1606469714777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/douban$douban_spider.coverage" NAME="douban_spider Coverage Results" MODIFIED="1606284429420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/douban/spiders" />
-    <SUITE FILE_PATH="coverage/douban$main.coverage" NAME="main Coverage Results" MODIFIED="1606268449828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/douban" />
     <SUITE FILE_PATH="coverage/douban$log_rs.coverage" NAME="log_rs Coverage Results" MODIFIED="1606362035120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/douban$lol.coverage" NAME="lol Coverage Results" MODIFIED="1606459885405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/douban$main.coverage" NAME="main Coverage Results" MODIFIED="1606718677601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dangdangwang/dangdangwang" />
+    <SUITE FILE_PATH="coverage/douban$lol.coverage" NAME="lol Coverage Results" MODIFIED="1606720031619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/douban$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1606461353371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/maoyan_movie/maoyan_movie" />
     <SUITE FILE_PATH="coverage/douban$rs_spider.coverage" NAME="rs_spider Coverage Results" MODIFIED="1606284413214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rs/rs/spiders" />
     <SUITE FILE_PATH="coverage/douban$test.coverage" NAME="test Coverage Results" MODIFIED="1606445338080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.1">
+    <splitter split-orientation="horizontal" split-proportion="0.85427135">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/lol.py">
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/步骤">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="662">
-                  <caret line="44" column="95" lean-forward="true" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="95" />
+                <state relative-caret-position="267">
+                  <caret line="11" column="27" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="27" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scrapy.cfg">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/bang_dangdang_com/bang_dangdang_com/spiders/bang_dangdang_com_spider.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="550">
+                  <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
                   <folding>
-                    <element signature="e#0#15#0" expanded="true" />
+                    <element signature="e#0#13#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/bang_dangdang_com/test.json">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/bang_dangdang_com/bang_dangdang_com/main.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="100">
+                  <caret line="4" selection-start-line="4" selection-end-line="4" />
                 </state>
               </provider>
             </entry>
@@ -41,46 +81,20 @@
         </leaf>
       </split-first>
       <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.50935453">
-          <split-first>
-            <leaf>
-              <file pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/maoyan.py">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="525">
-                      <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/../xuexipython/venv/Lib/site-packages/selenium/webdriver/remote/webelement.py">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="144">
-                      <caret line="113" column="8" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="8" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-first>
-          <split-second>
-            <leaf>
-              <file pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/maoyan_movie/maoyan_movie/spiders/maoyan_spider.py">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="700">
-                      <caret line="28" column="32" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="32" />
-                      <folding>
-                        <element signature="e#0#13#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-second>
-        </splitter>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/douban/spiders/douban_spider.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="30" column="29" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="29" />
+                  <folding>
+                    <element signature="e#0#13#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
       </split-second>
     </splitter>
   </component>
@@ -93,8 +107,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>db_cur</find>
-      <find>none</find>
       <find>None</find>
       <find>describe</find>
       <find>hell</find>
@@ -123,6 +135,8 @@
       <find>process_responser</find>
       <find>process_exception</find>
       <find>selenium</find>
+      <find>json</find>
+      <find>debug</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -140,14 +154,12 @@
         <option value="$PROJECT_DIR$/douban/main.py" />
         <option value="$PROJECT_DIR$/douban/items.py" />
         <option value="$PROJECT_DIR$/douban/settings.py" />
-        <option value="$PROJECT_DIR$/douban/spiders/douban_spider.py" />
         <option value="$PROJECT_DIR$/rs/rs/items.py" />
         <option value="$PROJECT_DIR$/douban/pipelines.py" />
         <option value="$PROJECT_DIR$/rs/rs/pipelines.py" />
         <option value="$PROJECT_DIR$/rs/rs/settings.py" />
         <option value="$PROJECT_DIR$/log_rs.py" />
         <option value="$PROJECT_DIR$/loggmsg.log" />
-        <option value="$PROJECT_DIR$/步骤" />
         <option value="$PROJECT_DIR$/maoyan_movie/maoyan_movie/items.py" />
         <option value="$PROJECT_DIR$/maoyan_movie/maoyan_movie/pipelines.py" />
         <option value="$PROJECT_DIR$/rs/rs/spiders/rs_spider.py" />
@@ -160,14 +172,21 @@
         <option value="$PROJECT_DIR$/maoyan_movie/maoyan_movie/middlewares.py" />
         <option value="$PROJECT_DIR$/maoyan_movie/maoyan_movie/spiders/maoyan_spider.py" />
         <option value="$PROJECT_DIR$/maoyan.py" />
+        <option value="$PROJECT_DIR$/douban/spiders/douban_spider.py" />
+        <option value="$PROJECT_DIR$/dangdangwang/dangdangwang/main.py" />
+        <option value="$PROJECT_DIR$/dangdangwang/dangdangwang/spiders/dangdangwang_spider.py" />
+        <option value="$PROJECT_DIR$/步骤" />
+        <option value="$PROJECT_DIR$/bang_dangdang_com/bang_dangdang_com/main.py" />
+        <option value="$PROJECT_DIR$/bang_dangdang_com/bang_dangdang_com/spiders/bang_dangdang_com_spider.py" />
+        <option value="$PROJECT_DIR$/bang_dangdang_com/test.json" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1060" />
-    <option name="y" value="352" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1973" />
-    <option name="height" value="1164" />
+    <option name="height" value="1019" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -175,6 +194,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,31 +205,36 @@
             <path>
               <item name="douban" type="b2602c69:ProjectViewProjectNode" />
               <item name="douban" type="462c0819:PsiDirectoryNode" />
+              <item name="bang_dangdang_com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="douban" type="b2602c69:ProjectViewProjectNode" />
+              <item name="douban" type="462c0819:PsiDirectoryNode" />
+              <item name="bang_dangdang_com" type="462c0819:PsiDirectoryNode" />
+              <item name="bang_dangdang_com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="douban" type="b2602c69:ProjectViewProjectNode" />
+              <item name="douban" type="462c0819:PsiDirectoryNode" />
+              <item name="bang_dangdang_com" type="462c0819:PsiDirectoryNode" />
+              <item name="bang_dangdang_com" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="douban" type="b2602c69:ProjectViewProjectNode" />
+              <item name="douban" type="462c0819:PsiDirectoryNode" />
               <item name="douban" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="douban" type="b2602c69:ProjectViewProjectNode" />
               <item name="douban" type="462c0819:PsiDirectoryNode" />
-              <item name="maoyan_movie" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="douban" type="b2602c69:ProjectViewProjectNode" />
               <item name="douban" type="462c0819:PsiDirectoryNode" />
-              <item name="maoyan_movie" type="462c0819:PsiDirectoryNode" />
-              <item name="maoyan_movie" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="douban" type="b2602c69:ProjectViewProjectNode" />
-              <item name="douban" type="462c0819:PsiDirectoryNode" />
-              <item name="maoyan_movie" type="462c0819:PsiDirectoryNode" />
-              <item name="maoyan_movie" type="462c0819:PsiDirectoryNode" />
               <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,6 +246,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\douban\bang_dangdang_com\bang_dangdang_com" />
+      <recent name="G:\douban\dangdangwang\dangdangwang" />
       <recent name="G:\douban\maoyan_movie\maoyan_movie" />
       <recent name="G:\douban\rs\rs" />
     </key>
@@ -237,7 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.maoyan">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="lol" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="douban" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -268,12 +295,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rs/rs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bang_dangdang_com/bang_dangdang_com" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rs/rs/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bang_dangdang_com/bang_dangdang_com/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -304,6 +331,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="douban" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dangdangwang/dangdangwang" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dangdangwang/dangdangwang/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="maoyan" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="douban" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -326,42 +375,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="douban" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.main (1)" />
       <item itemvalue="Python.main (2)" />
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.lol" />
       <item itemvalue="Python.maoyan" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.lol" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.maoyan" />
         <item itemvalue="Python.main (2)" />
-        <item itemvalue="Python.lol" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -384,7 +411,9 @@
       <workItem from="1606287177296" duration="26460000" />
       <workItem from="1606381177545" duration="4189000" />
       <workItem from="1606441093661" duration="460000" />
-      <workItem from="1606442068011" duration="15823000" />
+      <workItem from="1606442068011" duration="21287000" />
+      <workItem from="1606699404838" duration="16490000" />
+      <workItem from="1606721769210" duration="5984000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1606268697452</created>
@@ -470,11 +499,25 @@
       <option name="project" value="LOCAL" />
       <updated>1606461435904</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="1">
+      <created>1606464981414</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1606464981414</updated>
+    </task>
+    <task id="LOCAL-00014" summary="1">
+      <created>1606469793481</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1606469793481</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69612000" />
+    <option name="totallyTimeSpent" value="97550000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -489,12 +532,12 @@
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.05564388" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1299682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27145085" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299532" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960256" weight="0.3705148" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -502,9 +545,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3299532" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3475728" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.29875195" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039744" side_tool="true" weight="0.64586586" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49920508" visible="true" weight="0.49921995" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49960256" weight="0.29875195" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -542,13 +585,6 @@
     <entry file="file://$PROJECT_DIR$/douban/spiders/rs_spider.py" />
     <entry file="file://$PROJECT_DIR$/rs/rs/spiders/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/douban/main.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -590,34 +626,10 @@
     <entry file="file://$PROJECT_DIR$/rs/scrapy.cfg">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="69" column="293" selection-start-line="69" selection-start-column="293" selection-end-line="69" selection-end-column="293" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rs/rs/log.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/步骤">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="48" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/douban/spiders/maoyan_spider.py" />
-    <entry file="file://$PROJECT_DIR$/douban/spiders/douban_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="32" column="80" lean-forward="true" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="80" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rs/rs/items.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -708,16 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maoyan_movie/maoyan_movie/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="982">
-          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-          <folding>
-            <element signature="e#238#273#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/douban/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -738,16 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lol.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="44" column="95" lean-forward="true" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="95" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../xuexipython/venv/Lib/site-packages/selenium/webdriver/remote/webelement.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -757,20 +749,103 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/maoyan_movie/maoyan_movie/spiders/maoyan_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="32" />
+        <state relative-caret-position="775">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maoyan.py">
+    <entry file="file://$PROJECT_DIR$/maoyan_movie/maoyan_movie/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+        <state relative-caret-position="543">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#238#273#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dangdangwang/dangdangwang/items.py" />
+    <entry file="file://$PROJECT_DIR$/dangdangwang/dangdangwang/main.py" />
+    <entry file="file://$PROJECT_DIR$/lol.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dangdangwang/dangdangwang/settings.py" />
+    <entry file="file://$PROJECT_DIR$/dangdangwang/dangdangwang/spiders/dangdangwang_spider.py" />
+    <entry file="file://$PROJECT_DIR$/maoyan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="69" column="293" selection-start-line="69" selection-start-column="293" selection-end-line="69" selection-end-column="293" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douban/spiders/douban_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/步骤">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bang_dangdang_com/bang_dangdang_com/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bang_dangdang_com/bang_dangdang_com/test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7473" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bang_dangdang_com/bang_dangdang_com/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bang_dangdang_com/bang_dangdang_com/spiders/bang_dangdang_com_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bang_dangdang_com/test.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
