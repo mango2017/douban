@@ -1,6 +1,6 @@
 from selenium import webdriver
-
-wd = webdriver.Chrome()
+from time import sleep
+# wd = webdriver.Chrome()
 # wd.get("https://www.baidu.com")
 # #根据id选择元素，返回的就是该元素对应的webelement对象
 # element = wd.find_element_by_id("kw")  #查找id=kw的元素
@@ -27,8 +27,14 @@ wd = webdriver.Chrome()
 
 
 wd = webdriver.Chrome()
+# 设置最大等待时长为 10秒
+wd.implicitly_wait(10)
 wd.get("https://www.baidu.com")
 element = wd.find_element_by_id('kw')
 element.send_keys('白月黑雨\n')
+# sleep(2)
 element = wd.find_element_by_id("1")
-print(element.text)
+print(element.get_attribute("srcid"))
+print(element.get_attribute('outerHTML'))
+print(element.get_attribute('innerHTML'))
+wd.quit()
