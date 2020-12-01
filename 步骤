@@ -59,3 +59,9 @@ import loggings
 loggings.basicConfig(...) 设置日志输出的样式，格式
 实例化一个logger = logging.getLogger(__name__)
 在任何py文件中调用logger即可
+
+
+参考文档：https://github.com/Wooden-Robot/scrapy-tutorial
+下载谷歌插件的网站：
+（1）https://ailongmiao.com/read/618.html
+（2）https://www.extfans.com/search/extensions/JSON-handle/
