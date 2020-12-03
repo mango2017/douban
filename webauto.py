@@ -1,5 +1,8 @@
 from selenium import webdriver
+import time
+from selenium.webdriver.support.ui import Select
 from time import sleep
+from selenium.webdriver.common.action_chains import ActionChains
 # wd = webdriver.Chrome()
 # wd.get("https://www.baidu.com")
 # #根据id选择元素，返回的就是该元素对应的webelement对象
@@ -78,17 +81,63 @@ wd = webdriver.Chrome()
 # wd.quit()
 
 
-wd.get('http://cdn1.python3.vip/files/selenium/sample3.html')
-link = wd.find_element_by_tag_name("a")
-link.click()
-mainWindow = wd.current_window_handle
-for handle in wd.window_handles:
-    # 先切换到该窗口
-    wd.switch_to.window(handle)
-    # 得到该窗口的标题栏字符串，判断是不是我们要操作的那个窗口
-    if 'Bing' in wd.title:
-        # 如果是，那么这时候WebDriver对象就是对应的该该窗口，正好，跳出循环，
-        break
-print(wd.title)
-wd.find_element_by_id("sb_form_q").send_keys("白月黑雨")
-wd.switch_to.window(mainWindow)
+# wd.get('http://cdn1.python3.vip/files/selenium/sample3.html')
+# link = wd.find_element_by_tag_name("a")
+# link.click()
+# mainWindow = wd.current_window_handle
+# for handle in wd.window_handles:
+#     # 先切换到该窗口
+#     wd.switch_to.window(handle)
+#     # 得到该窗口的标题栏字符串，判断是不是我们要操作的那个窗口
+#     if 'Bing' in wd.title:
+#         # 如果是，那么这时候WebDriver对象就是对应的该该窗口，正好，跳出循环，
+#         break
+# print(wd.title)
+# wd.find_element_by_id("sb_form_q").send_keys("白月黑雨")
+# wd.switch_to.window(mainWindow)
+
+
+
+wd.get("http://cdn1.python3.vip/files/selenium/test2.html")
+#获取当前选中的元素
+# element = wd.find_element_by_css_selector('#s_radio input[checked=checked]')
+# print("当前选中的是："+element.get_attribute("value"))
+# #点选 小雷老师
+# wd.find_element_by_css_selector('#s_radio input[value="小雷老师"]').click()
+
+# elements = wd.find_elements_by_css_selector('#s_checkbox input[checked="checked"]')
+# for element in elements:
+#     element.click()
+#
+# wd.find_element_by_css_selector("#s_checkbox input[value='小雷老师']").click()
+# time.sleep(5)
+# wd.quit()
+
+#创建Select对象
+# select = Select(wd.find_element_by_id("ss_single"))
+# select.select_by_visible_text("小雷老师")
+# time.sleep(5)
+# wd.quit()
+
+
+
+# 创建Select对象
+# select = Select(wd.find_element_by_id("ss_multi"))
+# # 清除所有 已经选中 的选项
+# select.deselect_all()
+# # 选择小雷老师 和 小凯老师
+# select.select_by_visible_text("小雷老师")
+# select.select_by_visible_text("小江老师")
+# time.sleep(5)
+# wd.quit()
+
+wd.get("https://www.baidu.com")
+ac = ActionChains(wd)
+ac.move_to_element(wd.find_element_by_css_selector('[name="tj_briicon"]')).perform()
+time.sleep(5)
+wd.quit()
+
+
+
+
+

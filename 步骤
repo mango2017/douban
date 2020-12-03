@@ -66,3 +66,6 @@ loggings.basicConfig(...) 设置日志输出的样式，格式
 （1）https://ailongmiao.com/read/618.html
 （2）https://www.extfans.com/search/extensions/JSON-handle/
 （3）http://www.python3.vip/tut/auto/selenium/02/
+
+冻结窗口：
+setTimeout(function(){debugger}, 5000)
