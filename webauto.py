@@ -98,7 +98,7 @@ wd = webdriver.Chrome()
 
 
 
-wd.get("http://cdn1.python3.vip/files/selenium/test2.html")
+# wd.get("http://cdn1.python3.vip/files/selenium/test2.html")
 #获取当前选中的元素
 # element = wd.find_element_by_css_selector('#s_radio input[checked=checked]')
 # print("当前选中的是："+element.get_attribute("value"))
@@ -131,13 +131,40 @@ wd.get("http://cdn1.python3.vip/files/selenium/test2.html")
 # time.sleep(5)
 # wd.quit()
 
-wd.get("https://www.baidu.com")
-ac = ActionChains(wd)
-ac.move_to_element(wd.find_element_by_css_selector('[name="tj_briicon"]')).perform()
-time.sleep(5)
-wd.quit()
+# wd.get("https://www.baidu.com")
+# ac = ActionChains(wd)
+# ac.move_to_element(wd.find_element_by_css_selector('[name="tj_briicon"]')).perform()
+# time.sleep(5)
+# wd.quit()
 
+# wd.get('http://cdn1.python3.vip/files/selenium/test4.html')
+# wd.find_element_by_id('b1').click()
+# print(wd.switch_to.alert.text)
+# wd.switch_to.alert.accept()
 
+# wd.find_element_by_id('b2').click()
+# print(wd.switch_to.alert.text)
+# wd.switch_to.alert.accept()
+# wd.find_element_by_id('b2').click()
+# wd.switch_to.alert.dismiss()
 
+# wd.find_element_by_id('b3').click()
+# alert = wd.switch_to.alert
+# print(alert.text)
+#
+# alert.send_keys("web自动化---selenium")
+# time.sleep(2)
+# alert.accept()
+#
+# wd.find_element_by_id('b3').click()
+# alert = wd.switch_to.alert
+# alert.dismiss()
+
+wd.get("http://cdn1.python3.vip/files/selenium/test1.html")
+china = wd.find_element_by_id('china')
+# print(china)
+elements = china.find_elements_by_xpath(".//p")
+for element in elements:
+    print(element.get_attribute("outerHTML"))
 
 
