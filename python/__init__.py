@@ -178,3 +178,35 @@
 # print('你好'.encode('gbk'))
 
 # print(b'\xe4\xbd\xa0\xe5\xa5\xbd'.decode('utf8'))
+# w会覆盖 a是追加
+# f = open('tmp.txt','a',encoding='utf8')
+# f.write('白月黑羽再次祝大家 ：good luck\n')
+# f.close()
+
+# f = open('tmp.txt','r',encoding='utf8')
+# content = f.read()
+# f.close()
+# name = content.split('：')[0]
+# print(name)
+
+# f = open('tmp.txt')
+# tmp = f.read(3)
+# print(tmp)
+#
+# tmp = f.read(3)
+# print(tmp)
+#
+# tmp = f.read()
+# print(tmp)
+# f.close()
+
+# f = open('tmp.txt')
+# linlist = f.readlines()
+# f.close()
+# for line in linlist:
+#     print(line)
+
+# def savetofile(memberlist,avgfee):
+#     with open('record.txt','a',encoding='utf8') as f:
+#         recordList = [f'{member}:{avgfee}' for member in memberlist]
+#         f.write('|'.join(recordList)+'\n')
