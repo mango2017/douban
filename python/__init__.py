@@ -167,9 +167,14 @@
 # list2 = [num**3 for num in list1]
 # print(list2)
 
-list1 = ['关羽','张飞','赵云','马超','黄忠']
-list2 = ['典韦','许褚','张辽','夏侯惇','夏侯渊']
+# list1 = ['关羽','张飞','赵云','马超','黄忠']
+# list2 = ['典韦','许褚','张辽','夏侯惇','夏侯渊']
+#
+# for member1 in list1:
+#     for member2 in list2:
+#         print(f'{member1} 大战 {member2}')
 
-for member1 in list1:
-    for member2 in list2:
-        print(f'{member1} 大战 {member2}')
+# print('你好'.encode('utf8'))
+# print('你好'.encode('gbk'))
+
+# print(b'\xe4\xbd\xa0\xe5\xa5\xbd'.decode('utf8'))
