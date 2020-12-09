@@ -125,21 +125,52 @@
 # except NotChinaTelError:
 #     print('非中国手机号码',traceback.format_exc())
 
+# import traceback
+#
+# def level_3():
+#     print ('进入 level_3')
+#     try:
+#         a = [0]
+#         b = a[1]
+#     except :
+#         print(f'未知异常:{traceback.format_exc()}')
+#     print ('离开 level_3')
+#
+# def level_2():
+#     print ('进入 level_2')
+#     level_3()
+#     print ('离开 level_2')
+#
+# def level_1():
+#     print ('进入 level_1')
+#     level_2()
+#     print ('离开 level_1')
+#
+#
+# level_1()
+#
+# print('程序正常退出')
 
-def level_3():
-    print('进入level_3')
-    a = [0]
-    b = a[0]
-    print('离开level_3')
-def level_2():
-    print('进入level_2')
-    level_3()
-    print('离开level_2')
-def level_1():
-    print('进入level_1')
-    level_2()
-    print('离开level_1')
+from subprocess import PIPE,Popen
 
+proc = Popen(
+    'fsutil volume diskfree e:',
+    stdin=None,
+    stdout=PIPE,
+    stderr=PIPE,
+    shell=True
+)
 
-level_1()
-print('程序正常退出')
+outinfo,errinfo = proc.communicate()
+
+outinfo = outinfo.decode('gbk')
+print(outinfo)
+
+outputList = outinfo.splitlines()
+print(outputList)
+
+free = outputList[0].split(':')[1].strip()
+print(free)
+
+total = outputList[1].split(':')[1].strip()
+print(total)
