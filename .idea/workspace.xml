@@ -6,13 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81ae1ee9-f9b8-4e58-a0e0-74b8d1192a52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python/autologin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/damaiautologin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/doubanautologin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/getCookie.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellodjango/hellodjango/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/hellodjango/hellodjango/search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/步骤" beforeDir="false" afterPath="$PROJECT_DIR$/步骤" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/damaiautologin.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/damaiautologin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/doubanautologin.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/doubanautologin.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,14 +34,15 @@
     <SUITE FILE_PATH="coverage/douban$mulu.coverage" NAME="mulu Coverage Results" MODIFIED="1607590004993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/douban$maoyan.coverage" NAME="maoyan Coverage Results" MODIFIED="1606469714777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/douban$test2__1_.coverage" NAME="test2 (1) Coverage Results" MODIFIED="1607481858838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
-    <SUITE FILE_PATH="coverage/douban$damai.coverage" NAME="damai Coverage Results" MODIFIED="1606957972434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/douban$damai2.coverage" NAME="damai2 Coverage Results" MODIFIED="1606902733204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/douban$damai.coverage" NAME="damai Coverage Results" MODIFIED="1607677630507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/douban$damai2.coverage" NAME="damai2 Coverage Results" MODIFIED="1607677148320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/douban$rs_spider.coverage" NAME="rs_spider Coverage Results" MODIFIED="1606284413214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rs/rs/spiders" />
     <SUITE FILE_PATH="coverage/douban$test.coverage" NAME="test Coverage Results" MODIFIED="1607411747330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/douban$dbwang_ajax_spider.coverage" NAME="dbwang_ajax_spider Coverage Results" MODIFIED="1606792739265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dbwang/dbwang/spiders" />
     <SUITE FILE_PATH="coverage/douban$ts.coverage" NAME="ts Coverage Results" MODIFIED="1607492529526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/douban$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1606729341522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bang_dangdang_com/bang_dangdang_com" />
     <SUITE FILE_PATH="coverage/douban$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1607325006543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stock" />
+    <SUITE FILE_PATH="coverage/douban$getCookie.coverage" NAME="getCookie Coverage Results" MODIFIED="1607677066425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/douban$xiancheng.coverage" NAME="xiancheng Coverage Results" MODIFIED="1607567591676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/douban$manage.coverage" NAME="manage Coverage Results" MODIFIED="1607590007260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hellodjango" />
     <SUITE FILE_PATH="coverage/douban$douban_spider.coverage" NAME="douban_spider Coverage Results" MODIFIED="1606284429420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/douban/spiders" />
@@ -52,22 +50,22 @@
     <SUITE FILE_PATH="coverage/douban$log_rs.coverage" NAME="log_rs Coverage Results" MODIFIED="1606362035120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/douban$main.coverage" NAME="main Coverage Results" MODIFIED="1606718677601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dangdangwang/dangdangwang" />
     <SUITE FILE_PATH="coverage/douban$lol.coverage" NAME="lol Coverage Results" MODIFIED="1606720031619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/douban$damaiautologin.coverage" NAME="damaiautologin Coverage Results" MODIFIED="1607663670401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/douban$damaiautologin.coverage" NAME="damaiautologin Coverage Results" MODIFIED="1607676538849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/douban$cc.coverage" NAME="cc Coverage Results" MODIFIED="1607327692655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/douban$zhuangshiqi.coverage" NAME="zhuangshiqi Coverage Results" MODIFIED="1607569276405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/douban$tc.coverage" NAME="tc Coverage Results" MODIFIED="1607492532175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.66883117">
+    <splitter split-orientation="horizontal" split-proportion="0.83900523">
       <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.48056996">
+        <splitter split-orientation="horizontal" split-proportion="0.11577424">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/python/autologin.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="564">
-                      <caret line="95" column="60" selection-start-line="95" selection-start-column="60" selection-end-line="95" selection-end-column="60" />
+                    <state relative-caret-position="272">
+                      <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
                       <folding>
                         <element signature="e#245#275#0" expanded="true" />
                       </folding>
@@ -87,15 +85,6 @@
                   </provider>
                 </entry>
               </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/步骤">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="1625">
-                      <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
             </leaf>
           </split-first>
           <split-second>
@@ -103,8 +92,44 @@
               <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/python/damaiautologin.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="545">
-                      <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+                    <state relative-caret-position="275">
+                      <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+                      <folding>
+                        <element signature="e#0#30#0" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/python/getCookie.py">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="450">
+                      <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+                      <folding>
+                        <element signature="e#0#30#0" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/damai2.py">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="450">
+                      <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+                      <folding>
+                        <element signature="e#0#30#0" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/damai.py">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="550">
+                      <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
                       <folding>
                         <element signature="e#0#30#0" expanded="true" />
                       </folding>
@@ -115,8 +140,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/python/doubanautologin.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="709">
-                      <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+                    <state relative-caret-position="425">
+                      <caret line="17" column="62" lean-forward="true" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
                       <folding>
                         <element signature="e#0#30#0" expanded="true" />
                       </folding>
@@ -127,8 +152,8 @@
               <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/webauto.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="520">
-                      <caret line="154" column="26" selection-start-line="154" selection-start-column="26" selection-end-line="154" selection-end-column="26" />
+                    <state relative-caret-position="475">
+                      <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
                       <folding>
                         <element signature="e#0#30#0" expanded="true" />
                       </folding>
@@ -145,8 +170,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lol.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="600">
-                  <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+                <state relative-caret-position="183">
+                  <caret line="12" selection-start-line="11" selection-end-line="12" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
                   </folding>
@@ -168,8 +193,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>process_responser</find>
-      <find>process_exception</find>
       <find>selenium</find>
       <find>json</find>
       <find>debug</find>
@@ -183,7 +206,6 @@
       <find>1519a50bc5d4180deabafe3476183f6b</find>
       <find>js</find>
       <find>https://passport.damai.cn/login?ru=https%3A%2F%2Fwww.damai.cn%2F</find>
-      <find>log_damai</find>
       <find>wd</find>
       <find>f'</find>
       <find>stockleft</find>
@@ -197,6 +219,9 @@
       <find>@href</find>
       <find>webdriver.Chrome</find>
       <find>close()</find>
+      <find>log_damai</find>
+      <find>browser_initial</find>
+      <find>103185543</find>
       <find>browser</find>
     </findStrings>
     <replaceStrings>
@@ -213,7 +238,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bang_dangdang_com/bang_dangdang_com/spiders/bang_dangdang_com_spider.py" />
         <option value="$PROJECT_DIR$/bang_dangdang_com/test.json" />
         <option value="$PROJECT_DIR$/dbwang/dbwang/items.py" />
         <option value="$PROJECT_DIR$/dbwang/dbwang/spiders/dbwang_ajax_spider.py" />
@@ -262,14 +286,15 @@
         <option value="$PROJECT_DIR$/步骤" />
         <option value="$PROJECT_DIR$/python/autologin.py" />
         <option value="$PROJECT_DIR$/python/demo.py" />
-        <option value="$PROJECT_DIR$/python/damaiautologin.py" />
         <option value="$PROJECT_DIR$/python/doubanautologin.py" />
+        <option value="$PROJECT_DIR$/python/damaiautologin.py" />
+        <option value="$PROJECT_DIR$/python/getCookie.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="732" />
-    <option name="y" value="193" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1906" />
     <option name="height" value="1214" />
   </component>
@@ -329,8 +354,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.doubanautologin">
-    <configuration name="autologin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.damai">
+    <configuration name="damai" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="douban" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -338,12 +363,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/autologin.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/damai.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="damai2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="douban" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/damai2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -374,28 +421,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="douban" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="doubanautologin" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="douban" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -418,7 +443,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="getCookie" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="douban" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -426,12 +451,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hellodjango" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hellodjango/manage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/getCookie.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -441,19 +466,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.manage" />
-      <item itemvalue="Python.autologin" />
-      <item itemvalue="Python.demo" />
       <item itemvalue="Python.damaiautologin" />
       <item itemvalue="Python.doubanautologin" />
+      <item itemvalue="Python.getCookie" />
+      <item itemvalue="Python.damai2" />
+      <item itemvalue="Python.damai" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.doubanautologin" />
+        <item itemvalue="Python.damai" />
+        <item itemvalue="Python.damai2" />
+        <item itemvalue="Python.getCookie" />
         <item itemvalue="Python.damaiautologin" />
-        <item itemvalue="Python.demo" />
-        <item itemvalue="Python.autologin" />
-        <item itemvalue="Python.manage" />
+        <item itemvalue="Python.doubanautologin" />
       </list>
     </recent_temporary>
   </component>
@@ -482,7 +507,7 @@
       <workItem from="1606803131996" duration="85255000" />
       <workItem from="1607303297167" duration="15506000" />
       <workItem from="1607324978287" duration="62474000" />
-      <workItem from="1607653217946" duration="11180000" />
+      <workItem from="1607653217946" duration="17814000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1606268697452</created>
@@ -705,7 +730,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="286939000" />
+    <option name="totallyTimeSpent" value="293573000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -720,7 +745,7 @@
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.081875995" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.017488075" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -728,14 +753,14 @@
       <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.8604928" weight="0.3533026" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="5" weight="0.32878152" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.3282989" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32954547" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5047695" side_tool="true" weight="0.39703587" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.6886201" weight="0.43879172" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.6886201" weight="0.3052464" />
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49960256" weight="0.5294118" />
-      <window_info active="true" anchor="bottom" id="Run" order="12" sideWeight="0.49523053" visible="true" weight="0.24642289" />
+      <window_info active="true" anchor="bottom" id="Run" order="12" sideWeight="0.49523053" visible="true" weight="0.0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -765,13 +790,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/study/b/food.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/tmp.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -875,16 +893,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/damai.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/log_rs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -901,16 +909,6 @@
           <caret line="11" column="11" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="11" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/damai2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1062,13 +1060,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/步骤">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1625">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rs/rs/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212800">
@@ -1095,31 +1086,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lol.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="183">
+          <caret line="12" selection-start-line="11" selection-end-line="12" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webauto.py">
+    <entry file="file://$PROJECT_DIR$/步骤">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="154" column="26" selection-start-line="154" selection-start-column="26" selection-end-line="154" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/damaiautologin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1625">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
         </state>
       </provider>
     </entry>
@@ -1133,20 +1111,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/damai2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webauto.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/getCookie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/damaiautologin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python/autologin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="95" column="60" selection-start-line="95" selection-start-column="60" selection-end-line="95" selection-end-column="60" />
+        <state relative-caret-position="272">
+          <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
           <folding>
             <element signature="e#245#275#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/damai.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python/doubanautologin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+        <state relative-caret-position="425">
+          <caret line="17" column="62" lean-forward="true" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>

@@ -2,6 +2,7 @@ from selenium import webdriver
 
 import time
 
+#这种登录方式就是 先在浏览器登录 然后拿到cookie 手动赋值进行携带登录
 driver = webdriver.Chrome()
 driver.get("https://www.douban.com/") #豆瓣
 
