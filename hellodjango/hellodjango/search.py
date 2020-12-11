@@ -6,12 +6,11 @@ import time
 def search_form(request):
     return render(request,'search_form.html')
 
-
-def search(request,mac='D4-3D-7E-BD-EB-A9'):
+def search(request,mac='1E-29-66-8F-67-0E'):
     request.encoding='utf-8'
     print("mac="+request.GET['q'])
     MAC = request.GET['q']
-    BROADCAST = "192.168.0.255"   #ip地址
+    BROADCAST = "59.44.20.194"   #ip地址
     if len(MAC) != 17:
         raise ValueError("MAC address should be set as form 'XX-XX-XX-XX-XX-XX'")
     mac_address = MAC.replace("-",'')

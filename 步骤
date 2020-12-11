@@ -69,3 +69,10 @@ loggings.basicConfig(...) 设置日志输出的样式，格式
 
 冻结窗口：
 setTimeout(function(){debugger}, 5000)
+
+
+验证码识别技术
+（1）opencv图像识别
+（2）pil图像处理
+（3）ocr文字识别
+
