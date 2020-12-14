@@ -15,8 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from  . import  views,search
+from  . import  views,search,testdb
 from django.conf.urls import url
+
 # urlpatterns = [
 #     path('admin/', admin.site.urls),
 # ]
@@ -26,5 +27,10 @@ urlpatterns = [
     url(r'^$', views.runoob),
     url(r'^search/$', search.search),
     url(r'^search-form/$', search.search_form),
-
+    path('testdb/',testdb.testdb),
+    path('runoob/',views.runoob),
+    path('getdata/',testdb.getdata),
+    path('updatedb/',testdb.updatedb),
+    path('deletedb/',testdb.deletedb),
+    url(r'^admin/',admin.site.urls)
 ]
