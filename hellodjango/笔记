@@ -1,0 +1,26 @@
+django:
+(1)判断django安装是否成功
+>django-admin
+
+(2)statproject新建一个项目
+> django-admin startproject 项目名字
+
+项目配置文件：settings.py
+项目路由配置文件：urls.py
+项目管理文件：manage.py
+
+(3)startapp新建一个应用
+>python manage.py startapp 应用名字
+
+views.py：视图处理的地方
+models.py 定义应用模型的地方
+admin.py 定义Admin模块管理对象的地方
+apps.py:生命应用的地方
+test.py编写应用测试用例的地方
+urls.py 自行创建管理应用路由的地方
+
+check检查项目完整性
+
+（4）runserver本地运行django项目
+
+shell进入python的shell环境
