@@ -29,3 +29,6 @@ shell进入python的shell环境
 >python manage.py makemigrations
 (6)创建表结构
 >python manage.py migrate
+
+创建后台账户：
+>python manage.py createsuperuser
