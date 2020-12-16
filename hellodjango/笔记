@@ -24,3 +24,8 @@ check检查项目完整性
 （4）runserver本地运行django项目
 
 shell进入python的shell环境
+
+(5)Django 知道我们在我们的模型有一些变更
+>python manage.py makemigrations
+(6)创建表结构
+>python manage.py migrate
