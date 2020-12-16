@@ -6,8 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81ae1ee9-f9b8-4e58-a0e0-74b8d1192a52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mysite/misterwu/templates/teacher.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/misterwu/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/misterwu/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/misterwu/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/misterwu/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/misterwu/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/misterwu/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,23 +82,67 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="mysite: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="mysite@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="mysite: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="misterwu_test: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mysite/misterwu/models.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/misterwu/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="674">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="681">
+              <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/ts.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python/tc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/tkinter/tix.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="727" column="8" selection-start-line="727" selection-start-column="8" selection-end-line="727" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/misterwu/templates/teacher.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/misterwu/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,7 +159,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>DbwangSpiderSpider</find>
       <find>DbwangSpiderMiddleware</find>
       <find>dbwang</find>
       <find>spider</find>
@@ -143,14 +188,15 @@
       <find>Django administration</find>
       <find>INSTALLED_APPS</find>
       <find>database</find>
+      <find>socket</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
     <dirStrings>
       <dir>G:\douban\stock</dir>
-      <dir>G:\douban</dir>
       <dir>G:\douban\mysite</dir>
+      <dir>G:\douban</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -159,7 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/python/bb.py" />
         <option value="$PROJECT_DIR$/python/aa.py" />
         <option value="$PROJECT_DIR$/stock/food/beef.py" />
         <option value="$PROJECT_DIR$/stock/furniture/bed.py" />
@@ -200,23 +245,25 @@
         <option value="$PROJECT_DIR$/hellodjango/hellodjango/testdb.py" />
         <option value="$PROJECT_DIR$/hellodjango/hellodjango/urls.py" />
         <option value="$PROJECT_DIR$/hellodjango/TestModel/admin.py" />
-        <option value="$PROJECT_DIR$/hellodjango/笔记" />
         <option value="$PROJECT_DIR$/mysite/misterwu/templates/home.html" />
         <option value="$PROJECT_DIR$/mysite/misterwu/templates/base.html" />
-        <option value="$PROJECT_DIR$/mysite/misterwu/views.py" />
         <option value="$PROJECT_DIR$/mysite/misterwu/templates/user.html" />
         <option value="$PROJECT_DIR$/mysite/mysite/urls.py" />
-        <option value="$PROJECT_DIR$/mysite/misterwu/urls.py" />
         <option value="$PROJECT_DIR$/mysite/mysite/settings.py" />
         <option value="$PROJECT_DIR$/hellodjango/TestModel/models.py" />
         <option value="$PROJECT_DIR$/mysite/misterwu/models.py" />
+        <option value="$PROJECT_DIR$/hellodjango/笔记" />
+        <option value="$PROJECT_DIR$/mysite/misterwu/templates/teacher.html" />
+        <option value="$PROJECT_DIR$/mysite/misterwu/urls.py" />
+        <option value="$PROJECT_DIR$/mysite/misterwu/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1303" />
+    <option name="x" value="753" />
+    <option name="y" value="21" />
     <option name="width" value="2171" />
-    <option name="height" value="1407" />
+    <option name="height" value="1339" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -237,6 +284,11 @@
             <path>
               <item name="douban" type="b2602c69:ProjectViewProjectNode" />
               <item name="douban" type="462c0819:PsiDirectoryNode" />
+              <item name="hellodjango" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="douban" type="b2602c69:ProjectViewProjectNode" />
+              <item name="douban" type="462c0819:PsiDirectoryNode" />
               <item name="mysite" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -249,7 +301,26 @@
               <item name="douban" type="b2602c69:ProjectViewProjectNode" />
               <item name="douban" type="462c0819:PsiDirectoryNode" />
               <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="misterwu" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="douban" type="b2602c69:ProjectViewProjectNode" />
+              <item name="douban" type="462c0819:PsiDirectoryNode" />
               <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="misterwu" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="douban" type="b2602c69:ProjectViewProjectNode" />
+              <item name="douban" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="douban" type="b2602c69:ProjectViewProjectNode" />
+              <item name="douban" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -444,7 +515,7 @@
       <workItem from="1607653217946" duration="18912000" />
       <workItem from="1607908267431" duration="23907000" />
       <workItem from="1607994968732" duration="18695000" />
-      <workItem from="1608081449085" duration="1600000" />
+      <workItem from="1608081449085" duration="9831000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1606268697452</created>
@@ -698,11 +769,25 @@
       <option name="project" value="LOCAL" />
       <updated>1608026427934</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="django">
+      <created>1608083068013</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1608083068013</updated>
+    </task>
+    <task id="LOCAL-00038" summary="django">
+      <created>1608084981135</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1608084981135</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="338873000" />
+    <option name="totallyTimeSpent" value="347104000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -714,10 +799,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1303" y="0" width="2171" height="1407" extended-state="0" />
-    <editor active="true" />
+    <frame x="753" y="21" width="2171" height="1339" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.13546567" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14921838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -730,15 +814,15 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49940687" weight="0.3291866" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007949" side_tool="true" weight="0.296237" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.57478833" weight="0.06921029" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.57478833" visible="true" weight="0.6333616" />
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49960256" weight="0.5294118" />
       <window_info anchor="bottom" id="Run" order="12" sideWeight="0.49523053" weight="0.0" />
-      <window_info anchor="bottom" id="Database Console" order="13" sideWeight="0.49920508" weight="0.29411766" />
+      <window_info anchor="bottom" id="Database Console" order="13" sideWeight="0.49920508" weight="0.32830524" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32972717" />
-      <window_info anchor="right" id="Database" order="4" weight="0.3298887" />
+      <window_info anchor="right" id="Database" order="4" weight="0.2746423" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13546567" />
@@ -788,70 +872,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python/debug.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="148" column="1" selection-start-line="148" selection-start-column="1" selection-end-line="148" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/mulu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellodjango/hellodjango/asgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbwang/dbwang/spiders/dbwang_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#91#104#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rs/rs/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212800">
-          <caret line="5" column="657342" selection-start-line="5" selection-start-column="657342" selection-end-line="5" selection-end-column="657342" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/步骤">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1625">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/damai2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1035,13 +1055,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hellodjango/笔记">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-220">
@@ -1076,16 +1089,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/misterwu/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="64" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1154,26 +1157,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/mysite/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#630#662#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/misterwu/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/misterwu/templates/user.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
@@ -1194,10 +1177,211 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://6b761d1e-37f3-41e5-b562-6f58322c44f8/schema/mysite/table/misterwu_course">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/步骤">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hellodjango/笔记">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/misterwu/migrations/0003_auto_20201216_0955.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/6b761d1e-37f3-41e5-b562-6f58322c44f8.SCHEMA:mysite">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>6b761d1e-37f3-41e5-b562-6f58322c44f8.SCHEMA:mysite</OriginalElement>
+          <nodes>
+            <node x="380.28703703703707" y="541.5">6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.auth_user_user_permissions</node>
+            <node x="693.0" y="744.0">6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.django_migrations</node>
+            <node x="906.0" y="744.0">6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.django_session</node>
+            <node x="427.78703703703707" y="150.0">6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.auth_user</node>
+            <node x="480.050925925926" y="0.0">6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.django_content_type</node>
+            <node x="592.2870370370371" y="484.0">6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.django_admin_log</node>
+            <node x="114.0" y="744.0">6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.misterwu_teacher</node>
+            <node x="213.52314814814818" y="541.5">6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.auth_user_groups</node>
+            <node x="3.75" y="253.5">6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.auth_group</node>
+            <node x="0.0" y="940.0">6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.misterwu_course</node>
+            <node x="0.0" y="541.5">6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.auth_group_permissions</node>
+            <node x="193.38888888888889" y="230.5">6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.auth_permission</node>
+            <node x="228.0" y="1205.0">6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.misterwu_student_course</node>
+            <node x="222.0" y="974.5">6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.courses_assistant</node>
+            <node x="432.0" y="963.0">6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.misterwu_student</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.auth_permission" target="6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.django_content_type">
+              <point x="0.0" y="-61.5" />
+              <point x="288.8888888888889" y="125.0" />
+              <point x="526.550925925926" y="125.0" />
+              <point x="-46.5" y="50.0" />
+            </edge>
+            <edge source="6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.courses_assistant" target="6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.misterwu_teacher">
+              <point x="0.0" y="-73.0" />
+              <point x="317.0" y="915.0" />
+              <point x="256.5" y="915.0" />
+              <point x="47.5" y="73.0" />
+            </edge>
+            <edge source="6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.auth_user_groups" target="6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.auth_user">
+              <point x="36.5" y="-50.0" />
+              <point x="323.02314814814815" y="464.0" />
+              <point x="459.95370370370375" y="464.0" />
+              <point x="-64.33333333333331" y="142.0" />
+            </edge>
+            <edge source="6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.misterwu_course" target="6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.misterwu_teacher">
+              <point x="0.0" y="-107.5" />
+              <point x="101.0" y="915.0" />
+              <point x="161.5" y="915.0" />
+              <point x="-47.5" y="73.0" />
+            </edge>
+            <edge source="6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.django_admin_log" target="6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.auth_user">
+              <point x="-59.75" y="-107.5" />
+              <point x="652.0370370370371" y="464.0" />
+              <point x="588.6203703703704" y="464.0" />
+              <point x="64.33333333333331" y="142.0" />
+            </edge>
+            <edge source="6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.auth_user_groups" target="6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.auth_group">
+              <point x="-36.5" y="-50.0" />
+              <point x="250.02314814814818" y="454.0" />
+              <point x="125.25" y="454.0" />
+              <point x="40.5" y="38.5" />
+            </edge>
+            <edge source="6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.misterwu_student_course" target="6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.misterwu_student">
+              <point x="46.24999999999997" y="-50.0" />
+              <point x="366.75" y="1180.0" />
+              <point x="540.0" y="1180.0" />
+              <point x="0.0" y="84.5" />
+            </edge>
+            <edge source="6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.auth_user_user_permissions" target="6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.auth_permission">
+              <point x="-48.0" y="-50.0" />
+              <point x="428.28703703703707" y="454.0" />
+              <point x="336.6388888888889" y="454.0" />
+              <point x="47.75" y="61.5" />
+            </edge>
+            <edge source="6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.auth_user_user_permissions" target="6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.auth_user">
+              <point x="48.0" y="-50.0" />
+              <point x="0.0" y="142.0" />
+            </edge>
+            <edge source="6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.misterwu_student_course" target="6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.misterwu_course">
+              <point x="-46.25000000000003" y="-50.0" />
+              <point x="274.25" y="1180.0" />
+              <point x="101.0" y="1180.0" />
+              <point x="0.0" y="107.5" />
+            </edge>
+            <edge source="6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.django_admin_log" target="6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.django_content_type">
+              <point x="59.75" y="-107.5" />
+              <point x="771.5370370370371" y="125.0" />
+              <point x="619.550925925926" y="125.0" />
+              <point x="46.5" y="50.0" />
+            </edge>
+            <edge source="6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.auth_group_permissions" target="6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.auth_permission">
+              <point x="44.25" y="-50.0" />
+              <point x="132.75" y="464.0" />
+              <point x="241.13888888888889" y="464.0" />
+              <point x="-47.75" y="61.5" />
+            </edge>
+            <edge source="6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.auth_group_permissions" target="6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.auth_group">
+              <point x="-44.25" y="-50.0" />
+              <point x="-40.5" y="38.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.164150943396226" x="51.635573977977145" y="532.098693484109" />
+          <SelectedNodes>
+            <node>6b761d1e-37f3-41e5-b562-6f58322c44f8.TABLE:mysite.auth_permission</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/misterwu/migrations/0002_auto_20201216_0950.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-675" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/misterwu/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="735">
+          <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/mysite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/misterwu/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/tkinter/tix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="727" column="8" selection-start-line="727" selection-start-column="8" selection-end-line="727" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/misterwu/templates/teacher.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/misterwu/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/ts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/tc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
         </state>
       </provider>
     </entry>
